@@ -1,2 +1,5 @@
 1024swift
 1024swift框架集成了Alamofire，SwiftHttp网络访问，json处理SwiftyJSON，Dollar.swift计算，LTMorphingLabel，Surge，弹出框SCLAlertView-Swift，这款框架的目标是成为像beeframe那样的快速开发swift软件的框架
+
+###说明
+代码里面有详细的使用说明，自己ForK一份研究。
