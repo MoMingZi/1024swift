@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD85DF511A3F1E3F00227F22 /* LAGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85DF4C1A3F1E3E00227F22 /* LAGlobal.swift */; };
+		CD85DF521A3F1E3F00227F22 /* PhoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85DF4D1A3F1E3E00227F22 /* PhoneTableViewController.swift */; };
+		CD85DF531A3F1E3F00227F22 /* codeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85DF4E1A3F1E3E00227F22 /* codeTableViewController.swift */; };
+		CD85DF541A3F1E3F00227F22 /* IDcardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85DF4F1A3F1E3F00227F22 /* IDcardTableViewController.swift */; };
+		CD85DF551A3F1E3F00227F22 /* icon_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD85DF501A3F1E3F00227F22 /* icon_phone@2x.png */; };
 		CDBE8F8B1A3E7B0F00420029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE8F8A1A3E7B0F00420029 /* AppDelegate.swift */; };
 		CDBE8F8D1A3E7B0F00420029 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE8F8C1A3E7B0F00420029 /* ViewController.swift */; };
 		CDBE8F901A3E7B0F00420029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBE8F8E1A3E7B0F00420029 /* Main.storyboard */; };
@@ -178,6 +183,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD85DF4C1A3F1E3E00227F22 /* LAGlobal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LAGlobal.swift; sourceTree = "<group>"; };
+		CD85DF4D1A3F1E3E00227F22 /* PhoneTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneTableViewController.swift; sourceTree = "<group>"; };
+		CD85DF4E1A3F1E3E00227F22 /* codeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = codeTableViewController.swift; sourceTree = "<group>"; };
+		CD85DF4F1A3F1E3F00227F22 /* IDcardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDcardTableViewController.swift; sourceTree = "<group>"; };
+		CD85DF501A3F1E3F00227F22 /* icon_phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_phone@2x.png"; sourceTree = "<group>"; };
 		CDBE8F851A3E7B0F00420029 /* 1024Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1024Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDBE8F891A3E7B0F00420029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDBE8F8A1A3E7B0F00420029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -262,6 +272,11 @@
 				CDBE8FBC1A3E7BAF00420029 /* SCLAlertView.swift */,
 				CDBE8F8A1A3E7B0F00420029 /* AppDelegate.swift */,
 				CDBE8F8C1A3E7B0F00420029 /* ViewController.swift */,
+				CD85DF4C1A3F1E3E00227F22 /* LAGlobal.swift */,
+				CD85DF4D1A3F1E3E00227F22 /* PhoneTableViewController.swift */,
+				CD85DF4E1A3F1E3E00227F22 /* codeTableViewController.swift */,
+				CD85DF4F1A3F1E3F00227F22 /* IDcardTableViewController.swift */,
+				CD85DF501A3F1E3F00227F22 /* icon_phone@2x.png */,
 				CDBE8F8E1A3E7B0F00420029 /* Main.storyboard */,
 				CDBE8F911A3E7B0F00420029 /* Images.xcassets */,
 				CDBE8F931A3E7B0F00420029 /* LaunchScreen.xib */,
@@ -580,6 +595,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD85DF551A3F1E3F00227F22 /* icon_phone@2x.png in Resources */,
 				CDBE8FFE1A3E7C5300420029 /* Fragment.png in Resources */,
 				CDBE8F901A3E7B0F00420029 /* Main.storyboard in Resources */,
 				CDBE8FFD1A3E7C5300420029 /* Fire.png in Resources */,
@@ -606,12 +622,16 @@
 			files = (
 				CDBE8FF41A3E7C5300420029 /* LTEasing.swift in Sources */,
 				CDBE8FFB1A3E7C5300420029 /* LTMorphingLabel.swift in Sources */,
+				CD85DF521A3F1E3F00227F22 /* PhoneTableViewController.swift in Sources */,
 				CDBE8FF91A3E7C5300420029 /* LTMorphingLabel+Pixelate.swift in Sources */,
+				CD85DF531A3F1E3F00227F22 /* codeTableViewController.swift in Sources */,
 				CDBE8FF61A3E7C5300420029 /* LTMorphingLabel+Burn.swift in Sources */,
 				CDBE8FFC1A3E7C5300420029 /* NSString+LTMorphingLabel.swift in Sources */,
 				CDBE8FFA1A3E7C5300420029 /* LTMorphingLabel+Sparkle.swift in Sources */,
+				CD85DF541A3F1E3F00227F22 /* IDcardTableViewController.swift in Sources */,
 				CDBE8F8D1A3E7B0F00420029 /* ViewController.swift in Sources */,
 				CDBE8FF81A3E7C5300420029 /* LTMorphingLabel+Fall.swift in Sources */,
+				CD85DF511A3F1E3F00227F22 /* LAGlobal.swift in Sources */,
 				CDBE8FBD1A3E7BAF00420029 /* SCLAlertView.swift in Sources */,
 				CDBE8F8B1A3E7B0F00420029 /* AppDelegate.swift in Sources */,
 				CDBE8FF51A3E7C5300420029 /* LTMorphingLabel+Anvil.swift in Sources */,
@@ -832,6 +852,7 @@
 				CDBE8FA61A3E7B0F00420029 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDBE8FA71A3E7B0F00420029 /* Build configuration list for PBXNativeTarget "1024SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -840,6 +861,7 @@
 				CDBE8FA91A3E7B0F00420029 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
