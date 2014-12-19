@@ -1,5 +1,6 @@
 ##1024swift介绍
 - 框架集成了Alamofire，SwiftHttp两大网络访问类库
+- 数据库类SQLite.swift
 - json数据处理SwiftyJSON类库
 - Dollar.swift计算
 - LTMorphingLabel，Surge
