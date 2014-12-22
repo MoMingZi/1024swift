@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD329B841A4862F300788A32 /* FormBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD329B701A4862F200788A32 /* FormBaseCell.swift */; };
+		CD329B851A4862F300788A32 /* FormTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD329B711A4862F200788A32 /* FormTitleCell.swift */; };
+		CD329B861A4862F300788A32 /* FormValueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD329B721A4862F200788A32 /* FormValueCell.swift */; };
+		CD329B871A4862F300788A32 /* FormButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD329B731A4862F200788A32 /* FormButtonCell.swift */; };
+		CD329B881A4862F300788A32 /* FormCheckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD329B741A4862F200788A32 /* FormCheckCell.swift */; };
+		CD329B891A4862F300788A32 /* FormDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD329B751A4862F200788A32 /* FormDateCell.swift */; };
+		CD329B8A1A4862F300788A32 /* FormPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD329B761A4862F200788A32 /* FormPickerCell.swift */; };
+		CD329B8B1A4862F300788A32 /* FormSegmentedControlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD329B771A4862F200788A32 /* FormSegmentedControlCell.swift */; };
+		CD329B8C1A4862F300788A32 /* FormSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD329B781A4862F200788A32 /* FormSelectorCell.swift */; };
+		CD329B8D1A4862F300788A32 /* FormSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD329B791A4862F200788A32 /* FormSwitchCell.swift */; };
+		CD329B8E1A4862F300788A32 /* FormTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD329B7A1A4862F200788A32 /* FormTextFieldCell.swift */; };
+		CD329B8F1A4862F300788A32 /* FormTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD329B7B1A4862F200788A32 /* FormTextViewCell.swift */; };
+		CD329B901A4862F300788A32 /* FormOptionsSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD329B7D1A4862F300788A32 /* FormOptionsSelectorController.swift */; };
+		CD329B911A4862F300788A32 /* FormSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD329B7E1A4862F300788A32 /* FormSelector.swift */; };
+		CD329B921A4862F300788A32 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD329B7F1A4862F300788A32 /* FormViewController.swift */; };
+		CD329B931A4862F300788A32 /* FormDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD329B811A4862F300788A32 /* FormDescriptor.swift */; };
+		CD329B941A4862F300788A32 /* FormRowDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD329B821A4862F300788A32 /* FormRowDescriptor.swift */; };
+		CD329B951A4862F300788A32 /* FormSectionDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD329B831A4862F300788A32 /* FormSectionDescriptor.swift */; };
 		CD85DF511A3F1E3F00227F22 /* LAGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85DF4C1A3F1E3E00227F22 /* LAGlobal.swift */; };
 		CD85DF521A3F1E3F00227F22 /* PhoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85DF4D1A3F1E3E00227F22 /* PhoneTableViewController.swift */; };
 		CD85DF531A3F1E3F00227F22 /* codeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85DF4E1A3F1E3E00227F22 /* codeTableViewController.swift */; };
@@ -235,6 +253,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CD329B701A4862F200788A32 /* FormBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormBaseCell.swift; sourceTree = "<group>"; };
+		CD329B711A4862F200788A32 /* FormTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTitleCell.swift; sourceTree = "<group>"; };
+		CD329B721A4862F200788A32 /* FormValueCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormValueCell.swift; sourceTree = "<group>"; };
+		CD329B731A4862F200788A32 /* FormButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormButtonCell.swift; sourceTree = "<group>"; };
+		CD329B741A4862F200788A32 /* FormCheckCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormCheckCell.swift; sourceTree = "<group>"; };
+		CD329B751A4862F200788A32 /* FormDateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormDateCell.swift; sourceTree = "<group>"; };
+		CD329B761A4862F200788A32 /* FormPickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormPickerCell.swift; sourceTree = "<group>"; };
+		CD329B771A4862F200788A32 /* FormSegmentedControlCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormSegmentedControlCell.swift; sourceTree = "<group>"; };
+		CD329B781A4862F200788A32 /* FormSelectorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormSelectorCell.swift; sourceTree = "<group>"; };
+		CD329B791A4862F200788A32 /* FormSwitchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormSwitchCell.swift; sourceTree = "<group>"; };
+		CD329B7A1A4862F200788A32 /* FormTextFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTextFieldCell.swift; sourceTree = "<group>"; };
+		CD329B7B1A4862F200788A32 /* FormTextViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTextViewCell.swift; sourceTree = "<group>"; };
+		CD329B7D1A4862F300788A32 /* FormOptionsSelectorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormOptionsSelectorController.swift; sourceTree = "<group>"; };
+		CD329B7E1A4862F300788A32 /* FormSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormSelector.swift; sourceTree = "<group>"; };
+		CD329B7F1A4862F300788A32 /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		CD329B811A4862F300788A32 /* FormDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormDescriptor.swift; sourceTree = "<group>"; };
+		CD329B821A4862F300788A32 /* FormRowDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormRowDescriptor.swift; sourceTree = "<group>"; };
+		CD329B831A4862F300788A32 /* FormSectionDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormSectionDescriptor.swift; sourceTree = "<group>"; };
 		CD85DF4C1A3F1E3E00227F22 /* LAGlobal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LAGlobal.swift; sourceTree = "<group>"; };
 		CD85DF4D1A3F1E3E00227F22 /* PhoneTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneTableViewController.swift; sourceTree = "<group>"; };
 		CD85DF4E1A3F1E3E00227F22 /* codeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = codeTableViewController.swift; sourceTree = "<group>"; };
@@ -298,6 +334,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD329B6D1A4862F200788A32 /* SwiftForm */ = {
+			isa = PBXGroup;
+			children = (
+				CD329B6E1A4862F200788A32 /* cells */,
+				CD329B7C1A4862F200788A32 /* controllers */,
+				CD329B801A4862F300788A32 /* descriptors */,
+			);
+			path = SwiftForm;
+			sourceTree = "<group>";
+		};
+		CD329B6E1A4862F200788A32 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				CD329B6F1A4862F200788A32 /* base */,
+				CD329B731A4862F200788A32 /* FormButtonCell.swift */,
+				CD329B741A4862F200788A32 /* FormCheckCell.swift */,
+				CD329B751A4862F200788A32 /* FormDateCell.swift */,
+				CD329B761A4862F200788A32 /* FormPickerCell.swift */,
+				CD329B771A4862F200788A32 /* FormSegmentedControlCell.swift */,
+				CD329B781A4862F200788A32 /* FormSelectorCell.swift */,
+				CD329B791A4862F200788A32 /* FormSwitchCell.swift */,
+				CD329B7A1A4862F200788A32 /* FormTextFieldCell.swift */,
+				CD329B7B1A4862F200788A32 /* FormTextViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		CD329B6F1A4862F200788A32 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				CD329B701A4862F200788A32 /* FormBaseCell.swift */,
+				CD329B711A4862F200788A32 /* FormTitleCell.swift */,
+				CD329B721A4862F200788A32 /* FormValueCell.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		CD329B7C1A4862F200788A32 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD329B7D1A4862F300788A32 /* FormOptionsSelectorController.swift */,
+				CD329B7E1A4862F300788A32 /* FormSelector.swift */,
+				CD329B7F1A4862F300788A32 /* FormViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		CD329B801A4862F300788A32 /* descriptors */ = {
+			isa = PBXGroup;
+			children = (
+				CD329B811A4862F300788A32 /* FormDescriptor.swift */,
+				CD329B821A4862F300788A32 /* FormRowDescriptor.swift */,
+				CD329B831A4862F300788A32 /* FormSectionDescriptor.swift */,
+			);
+			path = descriptors;
+			sourceTree = "<group>";
+		};
 		CDBD90F81A42625600AC67EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -336,6 +429,7 @@
 		CDBE8F871A3E7B0F00420029 /* 1024Swift */ = {
 			isa = PBXGroup;
 			children = (
+				CD329B6D1A4862F200788A32 /* SwiftForm */,
 				CDBE8FE51A3E7C5300420029 /* LTMorphingLabel */,
 				CDBE8FBC1A3E7BAF00420029 /* SCLAlertView.swift */,
 				CDBE8F8A1A3E7B0F00420029 /* AppDelegate.swift */,
@@ -726,19 +820,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDBE8FF41A3E7C5300420029 /* LTEasing.swift in Sources */,
+				CD329B8A1A4862F300788A32 /* FormPickerCell.swift in Sources */,
 				CDBE8FFB1A3E7C5300420029 /* LTMorphingLabel.swift in Sources */,
 				CD85DF521A3F1E3F00227F22 /* PhoneTableViewController.swift in Sources */,
+				CD329B871A4862F300788A32 /* FormButtonCell.swift in Sources */,
+				CD329B881A4862F300788A32 /* FormCheckCell.swift in Sources */,
+				CD329B921A4862F300788A32 /* FormViewController.swift in Sources */,
+				CD329B851A4862F300788A32 /* FormTitleCell.swift in Sources */,
+				CD329B911A4862F300788A32 /* FormSelector.swift in Sources */,
 				CDBE8FF91A3E7C5300420029 /* LTMorphingLabel+Pixelate.swift in Sources */,
+				CD329B891A4862F300788A32 /* FormDateCell.swift in Sources */,
+				CD329B951A4862F300788A32 /* FormSectionDescriptor.swift in Sources */,
 				CD85DF531A3F1E3F00227F22 /* codeTableViewController.swift in Sources */,
 				CDBE8FF61A3E7C5300420029 /* LTMorphingLabel+Burn.swift in Sources */,
+				CD329B861A4862F300788A32 /* FormValueCell.swift in Sources */,
+				CD329B8C1A4862F300788A32 /* FormSelectorCell.swift in Sources */,
 				CDBD91101A42670700AC67EA /* SQLiteViewController.swift in Sources */,
+				CD329B8D1A4862F300788A32 /* FormSwitchCell.swift in Sources */,
 				CDBE8FFC1A3E7C5300420029 /* NSString+LTMorphingLabel.swift in Sources */,
+				CD329B8B1A4862F300788A32 /* FormSegmentedControlCell.swift in Sources */,
 				CDBE8FFA1A3E7C5300420029 /* LTMorphingLabel+Sparkle.swift in Sources */,
 				CD85DF541A3F1E3F00227F22 /* IDcardTableViewController.swift in Sources */,
+				CD329B8E1A4862F300788A32 /* FormTextFieldCell.swift in Sources */,
+				CD329B841A4862F300788A32 /* FormBaseCell.swift in Sources */,
+				CD329B941A4862F300788A32 /* FormRowDescriptor.swift in Sources */,
 				CDBE8F8D1A3E7B0F00420029 /* ViewController.swift in Sources */,
 				CDBE8FF81A3E7C5300420029 /* LTMorphingLabel+Fall.swift in Sources */,
+				CD329B901A4862F300788A32 /* FormOptionsSelectorController.swift in Sources */,
 				CD85DF511A3F1E3F00227F22 /* LAGlobal.swift in Sources */,
 				CDBE8FBD1A3E7BAF00420029 /* SCLAlertView.swift in Sources */,
+				CD329B8F1A4862F300788A32 /* FormTextViewCell.swift in Sources */,
+				CD329B931A4862F300788A32 /* FormDescriptor.swift in Sources */,
 				CDBE8F8B1A3E7B0F00420029 /* AppDelegate.swift in Sources */,
 				CDBE8FF51A3E7C5300420029 /* LTMorphingLabel+Anvil.swift in Sources */,
 				CDBE8FF71A3E7C5300420029 /* LTMorphingLabel+Evaporate.swift in Sources */,
