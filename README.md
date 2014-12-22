@@ -5,6 +5,7 @@
 - Dollar.swift计算
 - LTMorphingLabel，Surge
 - 弹出框SCLAlertView-Swift
+- 快速创建表格的类库SwiftForms
 
 这款框架的目标是成为快速开发swift软件的框架
 ## 使用说明
