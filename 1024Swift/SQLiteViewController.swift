@@ -26,11 +26,11 @@ class SQLiteViewController: UIViewController {
         let name = Expression<String?>("name")
         let email = Expression<String>("email")
         
-        db.create(table: users) { t in
-            t.column(id, primaryKey: true)
-            t.column(name)
-            t.column(email, unique: true)
-        }
+//        db.create(table: users) { t in
+//            t.column(id, primaryKey: true)
+//            t.column(name)
+//            t.column(email, unique: true)
+//        }
         // CREATE TABLE "users" (
         //     "id" INTEGER PRIMARY KEY NOT NULL,
         //     "name" TEXT,
@@ -45,10 +45,10 @@ class SQLiteViewController: UIViewController {
         }
         // INSERT INTO "users" ("name", "email") VALUES ('Alice', 'alice@mac.com')
         
-//                for user in users {
-//                    println("id: \(user[id]), name: \(user[name]), email: \(user[email])"
-//                    // id: 1, name: Optional("Alice"), email: alice@mac.com
-//                }
+                for user in users {
+                    println("id: \(user[id]), name: \(user[name]), email: \(user[email])")
+                    // id: 1, name: Optional("Alice"), email: alice@mac.com
+                }
 
     }
 
